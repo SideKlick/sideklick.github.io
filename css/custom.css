@@ -115,7 +115,7 @@ p{
 
 .subsribe-btn:hover {
     background: rgba(87, 87, 87, 0.63);
-    color: #fff;
+    color: rgb(32, 30, 30);
 }
 
 .subscribe-btn:focus{
@@ -130,9 +130,11 @@ p{
 
 .header{
     background-image: url(../img/Awesome_Coming_Soon_Template_BG.png);
-    background-position: center;
+    background-position-x: 50%;
+    background-position-y: 80%;
     background-attachment: fixed;
-    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
 }
 
 .header-wrapper{
@@ -170,7 +172,7 @@ a.title {
 }
 
 .coming{
-    font-size: 90px;
+    font-size: 70px;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
